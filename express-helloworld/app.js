@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('This is Version 2 of the App Powered by Amr Elgazzar\n');
+  res.send('Hello World!\n');
 });
 
 app.listen(8080, function () {
